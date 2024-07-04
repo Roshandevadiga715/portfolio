@@ -419,8 +419,10 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
-}
+  box-sizing: border-box;
+  aspect-ratio: 3/2;
 
+}
 .project-title {
   margin: 1rem;
   color: black;
